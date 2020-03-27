@@ -68,3 +68,13 @@ Here we are attaching image.png file present in the same folder.
 with app.open_resource("image.png") as fp:
     msg.attach("image.png", "image/png", fp.read())
 ```
+
+
+##Error , Please check below link
+1) https://stackoverflow.com/questions/16512592/login-credentials-not-working-with-gmail-smtp
+2) https://myaccount.google.com/lesssecureapps
+
+
+Testing
+=========
+Since this is a simple program, its been tested on a Windows7 PC and run using PyCharm's in built hosting on 127.0.0.1:5000.
