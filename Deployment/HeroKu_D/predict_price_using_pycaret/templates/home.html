@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Predict Insurance Bill</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href="{{ url_for('static', filename='./style.css') }}" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class="login">
+    <h1>Predict Insurance Bill</h1>
+
+    <!-- Form to enter new data for predictions  -->
+    <form action="{{ url_for('predict')}}" method="POST">
+        <input name="age" placeholder="Age" required="required" type="text"/><br>
+        <input name="sex" placeholder="Sex" required="required" type="text"/><br>
+        <input name="bmi" placeholder="BMI" required="required" type="text"/><br>
+        <input name="children" placeholder="Children" required="required" type="text"/><br>
+        <input name="smoker" placeholder="Smoker" required="required" type="text"/><br>
+        <input name="region" placeholder="Region" required="required" type="text"/><br>
+
+        <button class="btn btn-primary btn-block btn-large" type="submit">Predict</button>
+    </form>
+
+    <br>
+    <br>
+
+
+</div>
+{{pred}}
+
+</body>
+</html>
