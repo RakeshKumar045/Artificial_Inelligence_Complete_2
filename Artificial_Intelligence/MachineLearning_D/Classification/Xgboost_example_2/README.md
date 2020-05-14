@@ -1,2 +1,0 @@
-# Xgboost
-Xgboost implementation
