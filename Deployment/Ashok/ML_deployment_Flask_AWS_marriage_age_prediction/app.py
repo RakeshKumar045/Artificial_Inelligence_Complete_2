@@ -1,11 +1,14 @@
 import flask
-from flask import request
+from flask import Flask, request
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
-
 # from flask_cors import CORS
+
+app = Flask(__name__)
+
+
 # CORS(app)
 
 # main index page route
