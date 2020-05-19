@@ -693,14 +693,14 @@ atlassian-ide-plugin.xml
 /Deployment/Machine-Learning-Web-Apps/SpamDetector_ML_Package/__init__.py
 /Deployment/Machine-Learning-Web-Apps/SpamDetector_ML_Package/README.md
 /Deployment/Machine-Learning-Web-Apps/SpamDetector_ML_Package/Spam Detection with ML.ipynb
-/Deployment/Machine-Learning-Web-Apps/Youtube-Spam-Detector-ML-Flask-App/
-/Deployment/Machine-Learning-Web-Apps/Youtube-Spam-Detector-ML-Flask-App/data/
-/Deployment/Machine-Learning-Web-Apps/Youtube-Spam-Detector-ML-Flask-App/data/TextClassification.ipynb
-/Deployment/Machine-Learning-Web-Apps/Youtube-Spam-Detector-ML-Flask-App/static/
-/Deployment/Machine-Learning-Web-Apps/Youtube-Spam-Detector-ML-Flask-App/static/css/
-/Deployment/Machine-Learning-Web-Apps/Youtube-Spam-Detector-ML-Flask-App/templates/
-/Deployment/Machine-Learning-Web-Apps/Youtube-Spam-Detector-ML-Flask-App/__init__.py
-/Deployment/Machine-Learning-Web-Apps/Youtube-Spam-Detector-ML-Flask-App/app.py
+/Deployment/Machine-Learning-Web-Apps/Model_Building_Deployment_Spam-Detector-ML-Flask-App/
+/Deployment/Machine-Learning-Web-Apps/Model_Building_Deployment_Spam-Detector-ML-Flask-App/data/
+/Deployment/Machine-Learning-Web-Apps/Model_Building_Deployment_Spam-Detector-ML-Flask-App/data/TextClassification.ipynb
+/Deployment/Machine-Learning-Web-Apps/Model_Building_Deployment_Spam-Detector-ML-Flask-App/static/
+/Deployment/Machine-Learning-Web-Apps/Model_Building_Deployment_Spam-Detector-ML-Flask-App/static/css/
+/Deployment/Machine-Learning-Web-Apps/Model_Building_Deployment_Spam-Detector-ML-Flask-App/templates/
+/Deployment/Machine-Learning-Web-Apps/Model_Building_Deployment_Spam-Detector-ML-Flask-App/__init__.py
+/Deployment/Machine-Learning-Web-Apps/Model_Building_Deployment_Spam-Detector-ML-Flask-App/app.py
 /Deployment/Machine-Learning-Web-Apps/__init__.py
 /Deployment/Machine-Learning-Web-Apps/README.md
 /Deployment/NLP_WEB_BASE_PROJECTS/
