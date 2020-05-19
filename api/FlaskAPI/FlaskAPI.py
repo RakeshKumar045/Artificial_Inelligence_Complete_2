@@ -8,6 +8,11 @@ def home():
     return "Hello, World!"
 
 
+@app.route('/index')
+def index_home():
+    return render_template('index.html')
+
+
 @app.route("/tensorbroad_pb_android", methods=['GET', 'POST'])
 def salvador():
     return "Hello, Rakesh"
