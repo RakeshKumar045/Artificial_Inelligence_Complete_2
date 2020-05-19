@@ -483,7 +483,7 @@ OpenCover/
 tests/.cache/v/cache/lastfailed
 
 
-*.csv
+#*.csv
 *.zip
 *.npz
 *.npy
@@ -525,7 +525,7 @@ MNIST*
 .vscode/
 *.jar
 *.item
-*.pkl
+#*.pkl
 nlp_*.yaml
 nohup.out
 

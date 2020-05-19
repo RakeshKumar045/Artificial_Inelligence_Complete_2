@@ -12,7 +12,13 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    df = pd.read_csv("YoutubeSpamMergedData.csv")
+    df = pd.read_csv("spam_dataset.csv")
+
+    # or use below code (download from url )
+
+    # url = "https://raw.githubusercontent.com/Jcharis/Machine-Learning-Web-Apps/master/Youtube-Spam-Detector-ML-Flask-App/YoutubeSpamMergedData.csv"
+    # df = pd.read_csv(url)
+
     df_data = df[["CONTENT", "CLASS"]]
     # Features and Labels
     df_x = df_data['CONTENT']
