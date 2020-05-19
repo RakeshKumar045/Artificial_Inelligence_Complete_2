@@ -1,15 +1,28 @@
+import pickle
+
 import flask
-from flask import Flask, request
+from flask import request
+
+# from sklearn.externals import joblib
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
-# from flask_cors import CORS
+from flask_cors import CORS
 
-app = Flask(__name__)
+# app = Flask(__name__)
 
+print("hi 1")
+# load the model from disk
+filename = 'marriage_age_predict_model.ml'
+model = pickle.load(open(filename, 'rb'))
 
-# CORS(app)
+# model = pickle.load('marriage_age_predict_model.ml')
+
+print("hi 2")
+
+CORS(app)
+
 
 # main index page route
 @app.route('/')
@@ -17,10 +30,11 @@ def home():
     return '<h1>API is working.. </h1>'
 
 
+# @app.route('/predict', methods=['POST'])
 @app.route('/predict', methods=['GET'])
 def predict():
-    from sklearn.externals import joblib
-    model = joblib.load('marriage_age_predict_model.ml')
+    print("hi 3")
+
     predicted_age_of_marriage = model.predict([[int(request.args['gender']),
                                                 int(request.args['religion']),
                                                 int(request.args['caste']),

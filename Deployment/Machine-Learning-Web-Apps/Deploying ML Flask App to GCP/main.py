@@ -17,11 +17,13 @@ def index():
 
 @app.route("/", methods=['POST'])
 def predict():
+    print("hi 1 ")
     # Link to dataset from github
     global my_prediction, comment
     url = "https://raw.githubusercontent.com/Jcharis/Machine-Learning-Web-Apps/master/Youtube-Spam-Detector-ML-Flask-App/YoutubeSpamMergedData.csv"
     df = pd.read_csv(url)
     df_data = df[["CONTENT", "CLASS"]]
+    print("hi 2")
     # Features and Labels
     df_x = df_data['CONTENT']
     df_y = df_data.CLASS
@@ -40,11 +42,17 @@ def predict():
     # ytb_model = open("naivebayes_spam_model.pkl","rb")
     # clf = joblib.load(ytb_model)
 
+    print("hi 4")
+
     if request.method == 'POST':
         comment = request.form['comment']
+        print("comment : ", comment)
         data = [comment]
+        print("data : ", data)
         vect = cv.transform(data).toarray()
+        print("vector : ", vect)
         my_prediction = clf.predict(vect)
+        print("prediction : ", my_prediction)
     return render_template('results.html', prediction=my_prediction, comment=comment)
 
 
