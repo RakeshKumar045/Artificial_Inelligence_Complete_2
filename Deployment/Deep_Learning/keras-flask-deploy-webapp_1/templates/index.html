@@ -1,0 +1,32 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="main">
+    <div class="title">
+        <h3>Image Classifier</h3>
+        <!-- <p>
+          <small>A web app demo</small>
+        </p> -->
+    </div>
+
+    <div class="panel">
+        <input accept="image/x-png,image/gif,image/jpeg" class="hidden" id="file-upload" type="file"/>
+        <label class="upload-box" for="file-upload" id="file-drag">
+            <div id="upload-caption">Drop image here or click to select</div>
+            <img class="hidden" id="image-preview"/>
+        </label>
+    </div>
+    <div style="margin-bottom: 2rem;">
+        <input class="button" onclick="submitImage();" type="button" value="Submit"/>
+        <input class="button" onclick="clearImage();" type="button" value="Clear"/>
+    </div>
+
+    <div id="image-box">
+        <img id="image-display"/>
+        <div class="hidden" id="pred-result"></div>
+        <svg class="hidden" height="32" id="loader" viewBox="0 0 32 32" width="32">
+            <circle cx="16" cy="16" fill="none" id="spinner" r="14"></circle>
+        </svg>
+    </div>
+</div>
+
+{% endblock %}
