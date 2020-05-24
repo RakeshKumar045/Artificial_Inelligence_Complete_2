@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, redirect, jsonify
+from flask import Flask, render_template, url_for, redirect, jsonify, request
 
 app = Flask(__name__)
 
@@ -6,6 +6,28 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return "Hello, World!"
+
+
+@app.route('/index')
+def index_home():
+    return render_template('index.html')
+
+
+@app.route('/predict', methods=['GET'])
+def predict():
+    print("hi 3")
+
+    predicted_age_of_marriage = [[int(request.args['gender']),
+                                  int(request.args['religion']),
+                                  int(request.args['caste']),
+                                  int(request.args['mother_tongue']),
+                                  int(request.args['country']),
+                                  int(request.args['height_cms']),
+                                  ]]
+
+    print(predicted_age_of_marriage)
+    # return str(round(predicted_age_of_marriage[0], 2))
+    return "Hello, Rakesh"
 
 
 @app.route("/tensorbroad_pb_android", methods=['GET', 'POST'])
