@@ -28,10 +28,6 @@ We will be using mail variable to manage the features the instance "Mail" presen
 By using .html instead of .body you can use different html tags and add .svg, .png too.  I am using <img> argument to add image using Url.
 
 
-![](https://cdn-images-1.medium.com/max/1100/1*s_0nooHpNF3bBePm6axXfA.png)
-![](https://cdn-images-1.medium.com/max/880/1*EtDLMXCS76nanEH7nsnGng.png)
-
-
 ## 🍓 Compose & Send [Pro]
 Now that we know how add text & image. We can use different .html tags in combination with text and images to make it impressive like any other company Email. Also add <button> </button> redirecting users to your new websites.
 
@@ -39,25 +35,13 @@ Now that we know how add text & image. We can use different .html tags in combi
 ![](https://cdn-images-1.medium.com/max/880/1*8xMggon62Wwp8R1qCI-P9w.png)
 
 
-## 💁 Keep in Mind
-Since our code is not a full fledged app at this point, you may need to toggle your Gmail Setting.
 
-![](https://cdn-images-1.medium.com/max/880/1*vd0kXIICbB9OvfupIDg4ew.png)
 
 ## How can I Send Personalized Email to 1000's of Users?!
 ## Automate Mails
 _(like)_ **Change User's Name** -  Use python to go through a .txt or excel document of your user base and parse through all the names one by one and replace it in the mail.
 
-```
-with app.app_context():
-    for user in users:
-        message = '...'
-        subject = "Hello, %s" % user.name
-        msg = Message(recipients=[user.email],
-                      body= message,
-                      subject = subject)
-        mail.send(msg)
-```
+
 
 **!dea:** You can also change all the "he" to "she" or vice-versa depending on the gender.
 
@@ -71,10 +55,26 @@ with app.open_resource("image.png") as fp:
 
 
 ##Error , Please check below link
-1) https://stackoverflow.com/questions/16512592/login-credentials-not-working-with-gmail-smtp
+    1) https://stackoverflow.com/questions/16512592/login-credentials-not-working-with-gmail-smtp
 2) https://myaccount.google.com/lesssecureapps
 
+## 💁 Keep in Mind
+Since our code is not a full fledged app at this point, you may need to toggle your Gmail Setting.
 
-Testing
-=========
-Since this is a simple program, its been tested on a Windows7 PC and run using PyCharm's in built hosting on 127.0.0.1:5000.
+![](https://cdn-images-1.medium.com/max/880/1*vd0kXIICbB9OvfupIDg4ew.png)
+
+
+***
+### routes
+* index
+* * related info 
+* send_mail
+* * Send an email to respective recipients
+***
+### captures
+#### Index
+![Image index](./static/index.png "epidemiological model")
+#### Success
+![Image success](./static/success.png "epidemiological model")
+#### Error
+![Image error](./static/error.png "epidemiological model")

@@ -1,0 +1,81 @@
+body{
+	background-image: url('diabetes.jpg');
+	background-attachment: fixed;
+	background-position: fixed;
+	background-size: cover;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.vgrad{
+	background-image: linear-gradient(#141e30, #243b55);
+	/*#141e30, #243b55 */
+	opacity: 0.1; 
+	height: 100vh; 
+	width: 100vw;
+	margin-top: -20px;
+}
+
+.form-group .form-control{
+	border:1px solid red;
+}
+
+.form-group .form-control:hover{
+	box-shadow: 0 0 10px red;
+}
+
+.btn{
+	height: 35px;
+	width: 100px;
+	background-color: skyblue;
+	color: black;
+}
+
+.btn:hover{
+	background-color: skyblue;
+	box-shadow: 0 0 10px blue;
+	color: black;
+}
+
+.my-cta-button{
+	background: #f9f9f9;
+   	border: 2px solid #000000;
+    border-radius: 1000px;
+    box-shadow: 3px 3px #8c8c8c;
+	margin-top: 10px;
+    padding: 10px 36px;
+    color: #000000;
+    display: inline-block;
+   	font: italic bold 20px/1 "Calibri", sans-serif;
+    text-align: center;
+}
+
+.my-cta-button:hover{
+    color: #4d089a;
+    border: 2px solid #4d089a;
+    box-shadow: 0 0 10px blue;
+}
+
+
+.vcon{
+	margin-top: -725px;
+}
+
+@media(max-width: 470px){
+	body{
+		overflow-y: scroll;
+		overflow-x: scroll;
+	}
+}
+
+@media(max-width: 588px){
+	.vcon{
+		margin-top: -775px;
+	}
+}
+
+@media(max-width: 990px){
+	.vcon{
+		margin-top: -790px;
+	}
+}
