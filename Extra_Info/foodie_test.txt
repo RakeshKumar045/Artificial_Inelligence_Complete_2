@@ -1,0 +1,553 @@
+﻿{
+  "results_found": 11519,
+  "results_start": 0,
+  "results_shown": 5,
+  "restaurants": [
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 18245298,
+          "is_grocery_store": false
+        },
+        "apikey": "d407d7041129c9c1395aaff316fa6749",
+        "id": "18245298",
+        "name": "Boa Village",
+        "url": "https://www.zomato.com/ncr/boa-village-civil-lines-new-delhi?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "13, Alipur Road, Civil Lines, New Delhi",
+          "locality": "Civil Lines",
+          "city": "New Delhi",
+          "city_id": 1,
+          "latitude": "28.6766166672",
+          "longitude": "77.2252111137",
+          "zipcode": "",
+          "country_id": 1,
+          "locality_verbose": "Civil Lines, New Delhi"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Asian, Japanese, Korean, Chinese, Momos, Thai",
+        "timings": "11:30 AM to 12:30 AM",
+        "average_cost_for_two": 2300,
+        "price_range": 4,
+        "currency": "Rs.",
+        "highlights": [
+          "Lunch",
+          "Cash",
+          "Takeaway Available",
+          "Debit Card",
+          "Dinner",
+          "Delivery",
+          "Credit Card",
+          "Indoor Seating",
+          "Air Conditioned",
+          "Wifi",
+          "Live Sports Screening",
+          "Fullbar",
+          "Live Music",
+          "Rooftop",
+          "Table Reservation Not Required",
+          "Smoking Area",
+          "Nightlife"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/pictures/8/18245298/bff8c184a35d1cf57a58abac1e96881b.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.2",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": {
+              "text": "4.2"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "700"
+            }
+          },
+          "votes": 2561
+        },
+        "all_reviews_count": 1204,
+        "photos_url": "https://www.zomato.com/ncr/boa-village-civil-lines-new-delhi/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 2817,
+        "menu_url": "https://www.zomato.com/ncr/boa-village-civil-lines-new-delhi/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/pictures/8/18245298/bff8c184a35d1cf57a58abac1e96881b.jpg",
+        "medio_provider": 1,
+        "has_online_delivery": 1,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/18245298",
+        "is_table_reservation_supported": 1,
+        "has_table_booking": 1,
+        "book_url": "https://www.zomato.com/ncr/boa-village-civil-lines-new-delhi/book?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "events_url": "https://www.zomato.com/ncr/boa-village-civil-lines-new-delhi/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+91 8375021313, +91 8375091313",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Bar"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 18429148,
+          "is_grocery_store": false
+        },
+        "apikey": "d407d7041129c9c1395aaff316fa6749",
+        "id": "18429148",
+        "name": "Pa Pa Ya",
+        "url": "https://www.zomato.com/ncr/pa-pa-ya-saket-new-delhi?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "A-3, Select Citywalk, District Centre, Saket, New Delhi",
+          "locality": "Select Citywalk Mall, Saket",
+          "city": "New Delhi",
+          "city_id": 1,
+          "latitude": "28.5285368249",
+          "longitude": "77.2184998915",
+          "zipcode": "",
+          "country_id": 1,
+          "locality_verbose": "Select Citywalk Mall, Saket, New Delhi"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Asian, Chinese, Thai, Japanese",
+        "timings": "12Noon to 1AM (Mon-Sun)",
+        "average_cost_for_two": 2500,
+        "price_range": 4,
+        "currency": "Rs.",
+        "highlights": [
+          "Lunch",
+          "Mall Parking",
+          "Dinner",
+          "Cash",
+          "Credit Card",
+          "Debit Card",
+          "Fullbar",
+          "Table booking recommended",
+          "Smoking Area",
+          "Brunch",
+          "Indoor Seating",
+          "Air Conditioned"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/18429148_RESTAURANT_433edbeec2decc62911522378eca7fa8.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.9",
+          "rating_text": "Excellent",
+          "rating_color": "3F7E00",
+          "rating_obj": {
+            "title": {
+              "text": "4.9"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "800"
+            }
+          },
+          "votes": 3909
+        },
+        "all_reviews_count": 2272,
+        "photos_url": "https://www.zomato.com/ncr/pa-pa-ya-saket-new-delhi/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 8694,
+        "menu_url": "https://www.zomato.com/ncr/pa-pa-ya-saket-new-delhi/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/18429148_RESTAURANT_433edbeec2decc62911522378eca7fa8.jpg",
+        "medio_provider": 1,
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/18429148",
+        "is_table_reservation_supported": 1,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/ncr/pa-pa-ya-saket-new-delhi/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+91 8800002881, +91 8800002882, 011 40502064",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Casual Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 18895645,
+          "is_grocery_store": false
+        },
+        "apikey": "d407d7041129c9c1395aaff316fa6749",
+        "id": "18895645",
+        "name": "Plum By Bent Chair",
+        "url": "https://www.zomato.com/ncr/plum-by-bent-chair-aerocity-new-delhi?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "The Walk, Worldmark 2, Aerocity, New Delhi",
+          "locality": "Aerocity",
+          "city": "New Delhi",
+          "city_id": 1,
+          "latitude": "28.5515400000",
+          "longitude": "77.1227040000",
+          "zipcode": "",
+          "country_id": 1,
+          "locality_verbose": "Aerocity, New Delhi"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Chinese, Japanese, Thai, Asian, Beverages",
+        "timings": "12noon – 1am (Mon-Sun)",
+        "average_cost_for_two": 3000,
+        "price_range": 4,
+        "currency": "Rs.",
+        "highlights": [
+          "Dinner",
+          "Cash",
+          "Delivery",
+          "Debit Card",
+          "Serves Alcohol",
+          "Credit Card",
+          "Fullbar",
+          "Digital Payments Accepted",
+          "Valet Parking Available",
+          "Indoor Seating",
+          "Air Conditioned",
+          "Smoking Area"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "4.6",
+          "rating_text": "Excellent",
+          "rating_color": "3F7E00",
+          "rating_obj": {
+            "title": {
+              "text": "4.6"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "800"
+            }
+          },
+          "votes": 2293
+        },
+        "all_reviews_count": 1584,
+        "photos_url": "https://www.zomato.com/ncr/plum-by-bent-chair-aerocity-new-delhi/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 5921,
+        "menu_url": "https://www.zomato.com/ncr/plum-by-bent-chair-aerocity-new-delhi/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "medio_provider": 1,
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/18895645",
+        "is_table_reservation_supported": 1,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/ncr/plum-by-bent-chair-aerocity-new-delhi/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+91 7303156444, +91 7303157444, +91 9888367345",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Casual Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 305453,
+          "is_grocery_store": false
+        },
+        "apikey": "d407d7041129c9c1395aaff316fa6749",
+        "id": "305453",
+        "name": "Chew - Pan Asian Cafe",
+        "url": "https://www.zomato.com/ncr/chew-pan-asian-cafe-connaught-place-new-delhi?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "M-16, 1st Floor, Outer Circle, Connaught Place, New Delhi",
+          "locality": "Connaught Place",
+          "city": "New Delhi",
+          "city_id": 1,
+          "latitude": "28.6321282314",
+          "longitude": "77.2225741670",
+          "zipcode": "",
+          "country_id": 1,
+          "locality_verbose": "Connaught Place, New Delhi"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Asian, Japanese, Chinese, Thai",
+        "timings": "12:30PM to 11:30PM (Mon, Tue, Wed, Thu, Sun), 12:30PM to 12Midnight (Fri-Sat)",
+        "average_cost_for_two": 1700,
+        "price_range": 3,
+        "currency": "Rs.",
+        "highlights": [
+          "Lunch",
+          "Cash",
+          "Credit Card",
+          "Dinner",
+          "Delivery",
+          "Debit Card",
+          "Fullbar",
+          "Table booking recommended",
+          "Wifi",
+          "Indoor Seating",
+          "Air Conditioned",
+          "Smoking Area"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/pictures/3/305453/617ec296f3c5f0fb72b12d61c6952cc9.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.2",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": {
+              "text": "4.2"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "700"
+            }
+          },
+          "votes": 3286
+        },
+        "all_reviews_count": 1656,
+        "photos_url": "https://www.zomato.com/ncr/chew-pan-asian-cafe-connaught-place-new-delhi/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 3378,
+        "menu_url": "https://www.zomato.com/ncr/chew-pan-asian-cafe-connaught-place-new-delhi/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/pictures/3/305453/617ec296f3c5f0fb72b12d61c6952cc9.jpg",
+        "medio_provider": 1,
+        "has_online_delivery": 1,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/305453",
+        "is_table_reservation_supported": 1,
+        "has_table_booking": 1,
+        "book_url": "https://www.zomato.com/ncr/chew-pan-asian-cafe-connaught-place-new-delhi/book?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "events_url": "https://www.zomato.com/ncr/chew-pan-asian-cafe-connaught-place-new-delhi/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "00 1143544999",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Casual Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": 1,
+            "takeaway": -1
+          },
+          "res_id": 18617136,
+          "is_grocery_store": false
+        },
+        "apikey": "d407d7041129c9c1395aaff316fa6749",
+        "id": "18617136",
+        "name": "C.I.A. Call It Asiian",
+        "url": "https://www.zomato.com/ncr/c-i-a-call-it-asiian-greater-kailash-gk-2-new-delhi?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "13 - 16, Narmada Shopping Complex, Near Don Bosco School, Alaknanda Road, Greater Kailash 2 (GK 2), New Delhi",
+          "locality": "Greater Kailash 2 (GK2)",
+          "city": "New Delhi",
+          "city_id": 1,
+          "latitude": "28.5277497398",
+          "longitude": "77.2467817739",
+          "zipcode": "110019",
+          "country_id": 1,
+          "locality_verbose": "Greater Kailash 2 (GK2), New Delhi"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Thai, Chinese, Sushi, Momos",
+        "timings": "Closed (Mon),12:30pm – 10pm (Tue-Sun)",
+        "average_cost_for_two": 700,
+        "price_range": 2,
+        "currency": "Rs.",
+        "highlights": [
+          "Dinner",
+          "Cash",
+          "Delivery",
+          "Credit Card",
+          "Lunch",
+          "Takeaway Available",
+          "Debit Card",
+          "Outdoor Seating",
+          "Air Conditioned",
+          "Wifi"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/pictures/6/18617136/6d81214e6ca48a062a71c7583245487e.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.5",
+          "rating_text": "Excellent",
+          "rating_color": "3F7E00",
+          "rating_obj": {
+            "title": {
+              "text": "4.5"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "700"
+            }
+          },
+          "votes": 9310
+        },
+        "all_reviews_count": 1001,
+        "photos_url": "https://www.zomato.com/ncr/c-i-a-call-it-asiian-greater-kailash-gk-2-new-delhi/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 1627,
+        "menu_url": "https://www.zomato.com/ncr/c-i-a-call-it-asiian-greater-kailash-gk-2-new-delhi/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/pictures/6/18617136/6d81214e6ca48a062a71c7583245487e.jpg",
+        "has_online_delivery": 1,
+        "is_delivering_now": 1,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/18617136",
+        "order_url": "https://www.zomato.com/ncr/c-i-a-call-it-asiian-greater-kailash-gk-2-new-delhi/order?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "order_deeplink": "",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/ncr/c-i-a-call-it-asiian-greater-kailash-gk-2-new-delhi/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "011 41612211, 011 40041717, +91 9810111661",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Casual Dining"
+        ],
+        "establishment_types": []
+      }
+    }
+  ]
+}
