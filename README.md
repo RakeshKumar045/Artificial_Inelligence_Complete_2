@@ -8,17 +8,19 @@
 ![Rakesh's github stats](https://github-readme-stats.vercel.app/api?username=RakeshKumar045&show_icons=true)
 <img src="https://i.giphy.com/media/LMt9638dO8dftAjtco/200.webp" width="100"><img src="https://i.giphy.com/media/KzJkzjggfGN5Py6nkT/200.webp" width="100"><img src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp" width="100">
 
+
+
 ## Please Star me on GitHub 
 ## Please follow me on GitHub
+[<img src="https://img.shields.io/badge/github-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" />](https://github.com/RakeshKumar045?tab=repositories)
+
+https://github.com/RakeshKumar045?tab=repositories
+
+ ![Image github](./github_follow_pic/github.png "epidemiological model")
+
 
 ### Contact me any time, If you are having any queries.
 
-I have been implementing Artificial Intelligence(Data Science, Machine Learning, Deep Learning, & NLP) problems statement.
-I have been also implementing Python Coding & Interview Questions with Python, Data Structure & something more.
-
-### Run any files on jupyter notebook, terminal/command prompt & analysis the output for more learning.
-
-#### command : python Class_interview.py
-
 # Thank you for reaching out to me on Github. 
+
 

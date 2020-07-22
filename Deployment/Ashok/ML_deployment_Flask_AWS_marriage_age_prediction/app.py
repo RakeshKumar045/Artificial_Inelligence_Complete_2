@@ -1,27 +1,16 @@
 import pickle
 
-import flask
-from flask import request
+from flask import Flask, request
 
-# from sklearn.externals import joblib
+app = Flask(__name__)
 
-app = flask.Flask(__name__)
-app.config["DEBUG"] = True
+# app = flask.Flask(__name__)
+# app.config["DEBUG"] = True
+# CORS(app)
 
-from flask_cors import CORS
-
-# app = Flask(__name__)
-
-print("hi 1")
 # load the model from disk
-filename = 'marriage_age_predict_model.ml'
+filename = 'marriage_age_predict_model.pkl'
 model = pickle.load(open(filename, 'rb'))
-
-# model = pickle.load('marriage_age_predict_model.ml')
-
-print("hi 2")
-
-CORS(app)
 
 
 # main index page route
@@ -31,18 +20,20 @@ def home():
 
 
 # @app.route('/predict', methods=['POST'])
-@app.route('/predict', methods=['GET'])
+# @app.route('/predict', methods=['GET'])
+@app.route("/predict", methods=['POST'])
 def predict():
-    print("hi 3")
+    gender = int(request.args['gender'])
+    religion = int(request.args['religion'])
+    caste = int(request.args['caste'])
+    mother_tongue = int(request.args['mother_tongue'])
+    country = int(request.args['country'])
+    height_cms = int(request.args['height_cms'])
 
-    predicted_age_of_marriage = model.predict([[int(request.args['gender']),
-                                                int(request.args['religion']),
-                                                int(request.args['caste']),
-                                                int(request.args['mother_tongue']),
-                                                int(request.args['country']),
-                                                int(request.args['height_cms']),
-                                                ]])
-    return str(round(predicted_age_of_marriage[0], 2))
+    predicted_age = model.predict([gender, religion, caste, mother_tongue, country, height_cms, ])
+
+    print("checking   ", str(round(predicted_age[0], 2)))
+    return str(round(predicted_age[0], 2))
 
 
 if __name__ == "__main__":
