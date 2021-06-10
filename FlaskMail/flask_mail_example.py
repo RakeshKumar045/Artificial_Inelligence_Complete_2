@@ -7,7 +7,7 @@ mail_user_name = "rakesh.sit045@gmail.com"
 sender_mail = "2702rakesh@gmail.com"
 sender_trishala_mail = "trishla.singh35@gmail.com"
 sender_raka_mail = "raka06184@gmail.com"
-mail_password = "Rakeshkumar@*****"
+mail_password = "Rakesh*****@*****"
 
 app = Flask(__name__)
 
